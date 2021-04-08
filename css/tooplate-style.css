@@ -40,6 +40,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-navbar-menu {
+  z-index: 100000;
   display: block;
   color: white;
   background: rgba(31, 30, 30, 0.411);
@@ -135,7 +136,11 @@ footer a:link, footer a:visited {
   max-width: 575px;
 }
 .tm-section-1 {
-  margin-top: 70px;
+  /* z-index: 0; */
+  /* position: relative; */
+  /* top: -20rem; */
+  
+  margin-top: 0px;
   max-width: 420px;
 }
 
@@ -578,8 +583,64 @@ figure.effect-goliath:hover p {
   display: none;
 }
 
+.dropped-content{
+  display: flex;
+  justify-content: space-around;
+}
+.improving-links{
+  border-radius: 50%;
+  margin: 4rem;
+  padding: 0rem;
+  width: 10rem;
+  display: inline-block;
+}
+.droppedimage{
+  transition: 0.5s;
+  overflow: hidden;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  border-radius: 50%;
+}
+.droppedimage:hover{
+  overflow: hidden;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  border-radius: 0%;
+}
+.dropbtn{
+  transition: 0.25s;
+  border-radius: 0;
+  padding: 2px;
+  height: 3rem;
+  width: 10rem;
+  outline: none !important;
+  border: none;
+  color:white;
+  background-color: #1c1c1da4;
+}
+.dropbtn:hover{
+  border-radius: 0;
+  padding: 2px;
+  height: 3rem;
+  width: 10rem;
+  outline: none !important;
+  border: none;
+  color:white;
+  background-color: #1b6d7c;
+}
 
 @media (min-width: 520px){
+  #vid{
+    position: relative;
+    top: 0rem;
+    right: 25rem;
+
+  }
+
   .tm-content {
     padding-bottom: 50px;
     width: 100%;
