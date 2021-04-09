@@ -753,12 +753,13 @@ figure.effect-goliath:hover p {
     height: 197px;
   }
   .footer-line{
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.80rem;
   }
   .bottomimage{
     position: relative;
-    left: -0.7rem;
+    left: 1.5rem;
     width:7rem;
   }
   .tm-content {
