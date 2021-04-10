@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Farewell2k21</title>
-    <!--
-Template 2109 The Card
-http://www.tooplate.com/view/2109-the-card
--->
+
     <!-- load CSS -->
+    <style>
+      .show{display: flex;}
+    </style>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
@@ -110,10 +110,10 @@ http://www.tooplate.com/view/2109-the-card
                 
                 <div class="batches">
                   <div class="dropdown"></div>
-                  <button class="dropbtn">
+                  <button class="dropbtn" onclick="droppingdown()">
                     2k21    <i class="icon-bookmark"></i>
                   </button>
-                  <div class="dropped-content">
+                  <div class="dropped-content" id="k21droppeddown">
                     <a class="improving-links" href="./data/2k21/vibhas.html">
                       <img class ="droppedimage" src="./data/2k21/vibhas.jpg" alt="Vibhas Sharma"></img>
                     </a>
@@ -154,7 +154,7 @@ http://www.tooplate.com/view/2109-the-card
         </footer>
       </div>
     </div>
-
+    <script src="js/dropdown-menu.js"></script>
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/background.cycle.js"></script>
     <script src="slick/slick.min.js"></script>

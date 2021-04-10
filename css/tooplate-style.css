@@ -602,7 +602,7 @@ figure.effect-goliath:hover p {
   
 }
 .droppedimage{
-  border:5px solid rgba(19, 18, 18, 0.712);
+  
   transition: 0.5s;
   overflow: hidden;
   margin-left: 2rem;
@@ -612,9 +612,9 @@ figure.effect-goliath:hover p {
   border-radius: 50%;
 }
 .droppedimage:hover{
-  border:1px solid rgb(11, 207, 181);
+  /* border:1px solid rgb(11, 207, 181); */
   overflow: hidden;
-  padding: 0rem;
+  padding: -0rem;
   width: 15rem;
   height: auto;
   border-radius: 0%;
@@ -733,7 +733,7 @@ figure.effect-goliath:hover p {
 
 @media (max-width: 519px) {
   .dropped-content{
-   display: block;
+   display: none;
   }
   .droppedimage{
     position: relative;
