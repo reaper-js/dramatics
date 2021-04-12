@@ -759,7 +759,7 @@ figure.effect-goliath:hover p {
   }
   .bottomimage{
     position: relative;
-    left: 1.5rem;
+    margin-left: auto;
     width:7rem;
   }
   .tm-content {
