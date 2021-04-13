@@ -587,11 +587,9 @@ figure.effect-goliath:hover p {
   width: 100vw;
 }
 .dropped-content{
-  /* display: flex;
-  justify-content:left; */
-  
-  
+  display: inline-block;
 }
+
 .improving-links{
   /* display: flex;
   justify-content: space-between; */
