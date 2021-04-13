@@ -582,21 +582,24 @@ figure.effect-goliath:hover p {
 .no-js #loader-wrapper {
   display: none;
 }
-
+.batches{
+  display: inline-block;
+  width: 100vw;
+}
 .dropped-content{
-  display: flex;
-  justify-content: space-between;
-  left: 10rem;
+  /* display: flex;
+  justify-content:left; */
+  
   
 }
 .improving-links{
   /* display: flex;
   justify-content: space-between; */
-  display: inline-block;
-  margin-right: 14rem;
+  /* display: inline-block; */
+  /* margin-right: 14rem; */
   border-radius: 50%;
   padding: 0rem;
-  width: 5rem;
+
   
 
   
@@ -691,7 +694,7 @@ figure.effect-goliath:hover p {
      width: 9rem;
    }
    .video{
-     width: 350px;
+     width: 350px  !important;
      height: 197px;
    }
   .tm-site-title {
