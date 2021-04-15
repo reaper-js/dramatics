@@ -643,6 +643,7 @@ figure.effect-goliath:hover p {
   background-color: #1b6d7c;
 }
 .bottomimage{
+  z-index: -1;
   width:10em;
 }
 

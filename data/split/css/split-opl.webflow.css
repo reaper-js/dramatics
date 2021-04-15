@@ -158,7 +158,14 @@ a {
   -o-object-fit: cover;
   object-fit: cover;
 }
+a{
+  transition: 0.25s;
+}
+a:hover{
 
+  color:rgb(0, 255, 234);
+
+}
 @media screen and (max-width: 991px) {
   .leftcontent {
     display: block;
