@@ -460,7 +460,7 @@ figure.effect-goliath:hover p {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: #790606;
 
   -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -477,7 +477,7 @@ figure.effect-goliath:hover p {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #165c21;
 
   -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -492,7 +492,7 @@ figure.effect-goliath:hover p {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #322796;
 
   -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -528,7 +528,7 @@ figure.effect-goliath:hover p {
   top: 0;
   width: 51%;
   height: 100%;
-  background: #222222;
+  background: #000000;
   z-index: 1000;
   -webkit-transform: translateX(0); /* Chrome, Opera 15+, Safari 3.1+ */
   -ms-transform: translateX(0); /* IE 9 */
@@ -746,7 +746,7 @@ figure.effect-goliath:hover p {
 
 @media (max-width: 519px) {
   .dropped-content{
-   display: none;
+   display: block;
   }
   .droppedimage{
     position: relative;
@@ -771,6 +771,7 @@ figure.effect-goliath:hover p {
     font-size: 0.80rem;
   }
   .bottomimage{
+    display: none;
     position: relative;
     margin-left: auto;
     width:7rem;
