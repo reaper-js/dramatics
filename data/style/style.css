@@ -1,0 +1,99 @@
+body{
+    background-image: url(./blur.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.master{
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+ 
+}
+.posters{
+  
+  height: 100vh;
+  position: relative;
+  left: 6vw;
+  background-color: rgba(0, 0, 0, 0.418);
+  padding-right: 2vw;
+  padding-left: 2vw;
+  margin-top: -1vw;
+  padding-bottom: 5vh;
+
+}
+.poster-text{
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 3vh;
+  margin-right: 7vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.5vw;
+  background-color:rgba(0, 0, 0, 0.418) ;
+  height: fit-content;
+  width: auto;
+  padding-top: 4vw;
+  margin-top: 30vh;
+  margin-left: 17vw;
+
+}
+.image{
+  height: 100vh;
+}
+
+.degree{
+  margin-left: 6vw;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: start;
+}
+.degree-text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2vw;
+  padding-top: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  border-radius: 0.5vw;
+  background-color:rgba(0, 0, 0, 0.418) ;
+  height: 14vh;
+  width: auto;
+  margin-top: 40vh;
+}
+.degree-image{
+  padding: 2vw;
+  background-color:rgba(0, 0, 0, 0.418);
+  margin-top: 14vh;
+  margin-left: 15vw;
+  margin-bottom: 20vh;
+}
+.image-degree{
+  visibility: hidden;
+  width: 40vw;
+}
+.link{
+  display: block;
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  width: fit-content;
+  color:wheat;
+  padding: 1vw;
+  border-radius: 2vh;
+  text-decoration: none;
+  background-color: rgb(148, 83, 190);
+  transition: .15s;
+}
+.link:hover{
+  border-radius: 0;
+  color: white;
+  background-color: rgb(88, 15, 136);
+}
+h3{
+  margin: 0.1vh;
+}

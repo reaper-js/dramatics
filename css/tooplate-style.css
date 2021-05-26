@@ -647,18 +647,29 @@ figure.effect-goliath:hover p {
   width:10em;
 }
 
-@media (min-width: 520px){
+@media (min-width:1080px){
+
   .video{
-    width:900px; 
-    height:506px;
+    width: 45vw; 
+    height: 45vh;
   }
   #vid{
     position: relative;
-    top: -5rem;
-    right: 29rem;
-
+    top: -5vh;
+    right: 29vw;
   }
-
+ 
+}
+@media (min-width: 520px){
+  .video{
+    width: 45vw; 
+    height: 45vh;
+  }
+  #vid{
+    position: relative;
+    top: -5vh;
+    right: 18vw;
+  }
   .tm-content {
     padding-bottom: 50px;
     width: 100%;

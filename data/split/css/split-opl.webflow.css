@@ -166,6 +166,10 @@ a:hover{
   color:rgb(0, 255, 234);
 
 }
+.addedlink{
+  display: block;
+  margin-bottom: 2vh;
+}
 @media screen and (max-width: 991px) {
   .leftcontent {
     display: block;
