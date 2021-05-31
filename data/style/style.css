@@ -74,7 +74,7 @@ body{
   margin-bottom: 20vh;
 }
 .image-degree{
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 40vw;
 }
 .link{
@@ -96,4 +96,75 @@ body{
 }
 h3{
   margin: 0.1vh;
+}
+
+@media screen and (max-width: 520px){
+    #section1{
+      margin: 0;
+    }
+    .master{
+      display: block;
+      margin-right: 1vw;
+      padding: 0;
+      width: 100vw;
+    }
+    .image{
+      margin-left: 1vw;
+      width: 100vw;
+      height: auto;
+    }
+    .posters{
+      margin: 0;
+      padding: 0;
+      display: block;
+      background: none;
+      width: fit-content;
+      height: auto; 
+      left: -2vw;  
+      top: -2vh;  
+
+    }
+
+    .link{
+      visibility: hidden;
+      display: inline-block;
+      left: 32vw;
+      padding: 0vh;
+      font-size: 3vh;
+    }
+    .link:hover{
+      border-radius: 2vh;
+      color: white;
+      background-color: rgb(88, 15, 136);
+    }
+  
+    .poster-text{
+      text-align: center;
+      margin-top: 0;
+      margin-left: 2vw;
+      margin-right: 2vw;
+      padding-top: 5vh;
+      padding-bottom: 0vh;
+    }
+    .degree{
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+    .degree-text{
+      margin-left: 2vw;
+      font-size: 6vw;
+      width: 92vw;
+      height: 15vh;
+      margin-top:20vh;
+    }
+    .degree-image{
+      margin-left: 0;
+      margin-top: 1.5vh;
+      padding: 0;
+    }
+    .image-degree{
+    
+      width: 100vw;
+    }
 }
