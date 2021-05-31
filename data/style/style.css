@@ -74,7 +74,7 @@ body{
   margin-bottom: 20vh;
 }
 .image-degree{
-  /* visibility: hidden; */
+  visibility: hidden;
   width: 40vw;
 }
 .link{
@@ -152,6 +152,7 @@ h3{
       display: block;
     }
     .degree-text{
+      color: wheat;
       margin-left: 2vw;
       font-size: 6vw;
       width: 92vw;
@@ -159,6 +160,7 @@ h3{
       margin-top:20vh;
     }
     .degree-image{
+      visibility: hidden;
       margin-left: 0;
       margin-top: 1.5vh;
       padding: 0;
